@@ -31,7 +31,7 @@ fun new_client($self) {
 # BUILDERS
 
 fun new_encoder($self) {
-  require Zing::Encoder::Json; Zing::Encoder::Json->new;
+  require Zing::Encoder::Dump; Zing::Encoder::Dump->new;
 }
 
 # METHODS
